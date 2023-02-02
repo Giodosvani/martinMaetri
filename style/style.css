@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    width: 100%;
+    color: white;
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    width: 182px;
+    background-color: rgb(255, 227, 191);
+}
+
+.box h1 {
+    color: black
+}
